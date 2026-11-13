@@ -1,0 +1,8 @@
+<!doctype html><html><head><meta charset="utf-8"><title>DiagnósticoLab</title>
+<script>
+// GitHub Pages: links curtos (…/v/CÓDIGO) viram a rota da interface (…/#/v/CÓDIGO)
+(function () {
+  var p = location.pathname, m = p.match(/^(.*?)\/((?:v|f|r|d|login|bank|system)(?:\/.*)?)$/);
+  location.replace(m ? m[1] + "/#/" + m[2] + location.search : "./");
+})();
+</script></head><body></body></html>
